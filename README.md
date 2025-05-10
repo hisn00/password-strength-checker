@@ -1,6 +1,6 @@
 # Password Strength Checker
 
-This is a beginner-friendly Python project that checks the strength of a password based on common cybersecurity best practices. It evaluates the password and gives feedback as **Weak**, **Moderate**, or **Strong**.
+This is a Python project that checks the strength of a password based on common cybersecurity best practices. It evaluates the password and tell us as **Weak**, **Moderate**, or **Strong**.
 
 ## Features
 
