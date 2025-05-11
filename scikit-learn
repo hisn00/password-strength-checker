@@ -1,26 +1,27 @@
-def check_password_strength(password):
-    strength = 0
-
-    if len(password) >= 8:
-        strength += 1
-    if any(c.isdigit() for c in password):
-        strength += 1
-    if any(c.islower() for c in password):
-        strength += 1
-    if any(c.isupper() for c in password):
-        strength += 1
-    if any(c in "@#$%!&*?" for c in password):
-        strength += 1
-
-    if strength >= 4:
-        return "Strong"
-    elif strength == 3:
-        return "Moderate"
-    else:
-        return "Weak"
-
+print("Password Strength Checker")
 
 password = input("Enter your password: ")
-result = check_password_strength(password)
-print("Password strength:", result)
 
+score = 0
+
+if len(password) >= 8:
+    score += 1
+
+if any(c.islower() for c in password):
+    score += 1
+
+if any(c.isupper() for c in password):
+    score += 1
+
+if any(c.isdigit() for c in password):
+    score += 1
+
+if any(c in "@#$%&*!" for c in password):
+    score += 1
+
+if score >= 4:
+    print("Strong password")
+elif score == 3:
+    print("Moderate password")
+else:
+    print("Weak password")
