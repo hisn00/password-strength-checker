@@ -11,8 +11,6 @@ This is a Python project that checks the strength of a password based on common 
   - At least one digit
   - At least one special symbol (@, #, $, etc.)
 
-# 🔐 Strong Password Checker
+## 🤝 Contributing
 
-![Python](https://img.shields.io/badge/Built%20with-Python-blue?logo=python)
-![Security](https://img.shields.io/badge/Security-Focused-green)
-![License](https://img.shields.io/github/license/yourusername/strong-password-checker)
+Pull requests are welcome! 🤗 
