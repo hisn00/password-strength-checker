@@ -2,7 +2,7 @@
 
 This is a Python project that checks the strength of a password based on common cybersecurity best practices. It evaluates the password and tell us as **Weak**, **Moderate** or **Strong**.
 
-##Checks for:
+## Checks for:
   - Minimum length of 8 characters
   - At least one uppercase letter
   - At least one lowercase letter
